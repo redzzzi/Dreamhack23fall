@@ -90,6 +90,16 @@ A[Web Server] -.- B[Web Client]
   * ```?``` 뒤
 * fragment: 메인 리소스에 존재하는 **서브 리소스**를 접근할 때를 식별
   * ```#``` 뒤
+<br>
+
+* Host --> Domain Name, IP Address를 가짐
+* 브라우저가 DNS에 Domain Name을 질의하고 DNS가 응답한 IP Address 사용
+
+  ```mermaid
+  flowchart LR
+  A[IP Address] --> |DNS| B;
+  B[Domain Name] --> |DNS| A;
+  ```
 
 
 
