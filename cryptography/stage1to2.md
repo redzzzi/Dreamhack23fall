@@ -55,4 +55,7 @@ flowchart TD
     * 이때 **알파벳을 밀어낸 횟수**를 ```키key```라고 함 --> 키 공간이 작은 편
 
 * 다중 문자 치환 암호: 평문의 한 문자가 여러 종류의 문자로 치환될 수 있음
-  * e.g. ```비네제르 암호```
+  * e.g. ```비네제르 암호```: 표를 이용한 암호화
+    <br>
+    
+    <pre>C<sub>i</sub> = E<sub>k</sub>(M<sub>i</sub>) = (M<sub>i</sub> + K<sub>i</sub>) mod 26<br>M<sub>i</sub> = D<sub>k</sub>(C<sub>i</sub>) = (C<sub>i</sub> - K<sub>i</sub>) mod 26<br><br><i>C: 암호문, M: 평문, K: 키워드, X<sub>i</sub>: X의 i번째 요소</i></pre>
