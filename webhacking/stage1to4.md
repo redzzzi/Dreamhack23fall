@@ -37,7 +37,7 @@ A[Web Server] -.- B[Web Client]
 > 웹 애플리케이션 --> HTTP<br>
 > 파일 공유 --> FTP
 
-### ```HTTP 상태코드```
+### [```HTTP 상태코드```](https://www.rfc-editor.org/rfc/rfc2616.html#section-6)
 |상태코드|설명|
 |:---:|:---|
 |1xx|요청 제대로 받았고, 처리 진행 중|
@@ -45,3 +45,6 @@ A[Web Server] -.- B[Web Client]
 |3xx|요청을 처리하려면, 클라이언트의 추가 동작 필요|
 |4xx|클라이언트의 잘못된 요청 전송으로 인한 처리 실패|
 |5xx|유효한 클라이언트 요청에도 불구하고, 서버 에러로 인한 처리 실패|
+
+### HTTPS <sup>HTTP with *security*</sup>
+* TLS: 서버와 클라이언트 사이의 모든 HTTP 메시지를 암호화하는 프로토콜
