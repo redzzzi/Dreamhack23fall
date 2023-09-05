@@ -63,3 +63,6 @@ A[Web Server] -.- B[Web Client]
 
 ### ```HTTPS``` <sup>HTTP with *security*</sup>
 * TLS: 서버와 클라이언트 사이의 모든 HTTP 메시지를 암호화하는 프로토콜
+
+### ```웹 브라우저```
+* UX<sup>User eXperience</sup>을 제공하는 정말 조은 소프트웨어 ^_^
