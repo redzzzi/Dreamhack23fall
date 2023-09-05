@@ -46,5 +46,5 @@ A[Web Server] -.- B[Web Client]
 |4xx|클라이언트의 잘못된 요청 전송으로 인한 처리 실패|
 |5xx|유효한 클라이언트 요청에도 불구하고, 서버 에러로 인한 처리 실패|
 
-### HTTPS <sup>HTTP with *security*</sup>
+### ```HTTPS``` <sup>HTTP with *security*</sup>
 * TLS: 서버와 클라이언트 사이의 모든 HTTP 메시지를 암호화하는 프로토콜
