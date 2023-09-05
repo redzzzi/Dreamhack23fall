@@ -90,8 +90,6 @@ flowchart TD
 <p align="right"><sup>패딩: 평문이 블록 크기의 배수가 될 때까지 데이터를 추가함</sup></p>
 
 * 스트림 암호: 송수신자 공유 데이터 스트림 생성 후 이를 평문에 XOR하는 암호
-<br>
-
-* 암호문 C 생성식
+  * 암호문 C 생성식
   
-  <pre>C = P ⊕ X<br><br><i>P: 평문, C: 암호문, X: 스트림</i></pre>
+    <pre>C = P ⊕ X<br><br><i>P: 평문, C: 암호문, X: 스트림</i></pre>
