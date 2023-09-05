@@ -37,6 +37,21 @@ A[Web Server] -.- B[Web Client]
 > 웹 애플리케이션 --> HTTP<br>
 > 파일 공유 --> FTP
 
+### ```HTTP```
+* 서버와 클라이언트의 데이터 교환을 **요청**과 **응답** 형식으로 정의한 프로토콜
+* HTTP 서버는 웹 서버에 의해 *HTTP 서비스 포트*에 대기
+* 서비스 포트: 네트워크 포트 중 특정 서비스 점유가 점유하는 포트
+* OSI 7 계층 中 [전송 계층](https://ko.wikipedia.org/wiki/%EC%A0%84%EC%86%A1_%EA%B3%84%EC%B8%B5) --> TCP, UDP, etc. // 인웹기
+* 포트의 개수는 운영체제마다 다름
+* Well-known port
+  
+  |서비스|포트 번호|
+  |:---:|:---:|
+  |SSH|22|
+  |HTTP|80|
+  |HTTPS|443|
+  * 유명한 포트에서 서비스 실행 시 관리자 권한 요구됨 -> 클라이언트가 서비스 신뢰
+
 ### [```HTTP 상태코드```](https://www.rfc-editor.org/rfc/rfc2616.html#section-6)
 |상태코드|설명|
 |:---:|:---|
