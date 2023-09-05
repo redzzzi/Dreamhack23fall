@@ -64,5 +64,34 @@ A[Web Server] -.- B[Web Client]
 ### ```HTTPS``` <sup>HTTP with *security*</sup>
 * TLS: 서버와 클라이언트 사이의 모든 HTTP 메시지를 암호화하는 프로토콜
 
+<p align="right">ꉂ☺ᵎᵎᵎ</p>
+
 ### ```웹 브라우저```
 * UX<sup>User eXperience</sup>을 제공하는 정말 조은 소프트웨어 ^_^
+* 기본적인 동작 과정
+  ```mermaid
+  flowchart LR
+  A[URL<br>분석] --> B;
+  B[DNS<br>요청] --> C;
+  C[HTTP를 통해<br>URL에 요청] --> D;
+  D[URL의 HTTP 응답<br>수신] --> E;
+  E[리소스 다운로드<br>&<Br>웹 렌더링]
+  ```
+
+### ```URL```
+<p align="center"><img src="https://github.com/redzzzi/Dreamhack23fall/assets/127263392/f9dc7964-3bb1-451c-9136-4b7254abd6ce" width="400px"></p>
+
+* scheme: 웹 서버와의 통신 프로토콜 종류
+* host: 접속할 웹 서버 주소의 정보 (authority의 일부)
+* port: 접속할 웹 서버 포트에 대한 정보 (authority의 일부)
+* path: 접근할 웹 서버의 리소스 경로
+  * ```/```로 구분
+* query: 웹 서버에 전달할 파라미터
+  * ```?``` 뒤
+* fragment: 메인 리소스에 존재하는 **서브 리소스**를 접근할 때를 식별
+  * ```#``` 뒤
+
+
+
+
+  
