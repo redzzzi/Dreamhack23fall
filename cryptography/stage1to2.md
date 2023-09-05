@@ -60,3 +60,6 @@ flowchart TD
     <br>
     
     <pre>C<sub>i</sub> = E<sub>k</sub>(M<sub>i</sub>) = (M<sub>i</sub> + K<sub>i</sub>) mod 26<br>M<sub>i</sub> = D<sub>k</sub>(C<sub>i</sub>) = (C<sub>i</sub> - K<sub>i</sub>) mod 26<br><br><i>C: 암호문, M: 평문, K: 키워드, X<sub>i</sub>: X의 i번째 요소</i></pre>
+
+* 전치 암호: 정해진 길이만큼 평문 문자들의 **순서를 재배열**
+* e.g. ```스키테일 암호```: 나무봉 이용 --> 같은 나무봉을 가진 사람들만 해석 가능 (키: 나무봉)
