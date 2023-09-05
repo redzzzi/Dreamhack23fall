@@ -3,3 +3,5 @@
 
 
 # Basics
+
+<p align="right">ꉂ☺ᵎᵎᵎ</p>
