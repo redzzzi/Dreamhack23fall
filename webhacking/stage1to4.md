@@ -5,21 +5,21 @@
 # Basics
 
 <details>
-<summary>예시 코드 이해해보기</summary>
+<summary>예시 코드 이해하기</summary>
 <div markdown="1">
 <br>
 
 <code>👾 "Welcome Hackers :)" 가 출력되는 입력값 찾아보기</code>
 ```solve_me.c
 #include <stdio.h>
-#include <stdlib.h> //malloc 함수가 포함된 헤더 파일
+#include <stdlib.h>
 #include <string.h>
 int main() {
   int sz = 0x30;
   char *buf = (char *)malloc(sizeof(char) * sz);
   puts("Hello World!");
   printf("Education + Hack = ?\\n");
-  fgets(buf, sz, stdin);
+  fgets(buf, sz, stdin); // 입력 받기
   if (!strncmp(buf, "DreamHack", 9))
     printf("Welcome Hackers :)\\n");
   else
@@ -27,6 +27,17 @@ int main() {
   return 0;
 }
 ```
+* ```malloc 함수```: 요청한 크기의 메모리를 동적으로 할당하여 리턴
+  * ```#include <stdlib.h>``` 헤더파일 명령어 필요
+* ```메모리를 동적 할당한다```: 런타임 도중 사용할 메모리 공간을 할당
+  * 메모리는 힙 영역에 생성됨 cf) 정적 메모리 할당<sup>데이터, 스택 영역</sup>: 컴파일 타임에 메모리 크기 결정
+* ```strncmp 함수```: 두 문자열을 비교하여 같으면 0, 다르면 음수or양수 리턴
+  * **strncmp(str1, str2, n)**
+    * 맨 앞 두 매개변수 --> 비교할 두 문자열
+    * 세 번째 매개변수 n --> 비교할 문자열 길이
+    * n > 0이어야하며, 두 문자열 중 더 적은 것을 기준으로 비교
+  * ```#include <string.h>``` 헤더파일 명령어 필요
+
 ```solve_me.py
 #!/usr/bin/python3
 quiz = [116, 66, 85, 81, 93, 120, 81, 83, 91]
