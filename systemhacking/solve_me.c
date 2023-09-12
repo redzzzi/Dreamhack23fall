@@ -10,6 +10,6 @@ int main() {
   if (!strncmp(buf, "DreamHack", 9))
     printf("Welcome Hackers :)\n");
   else
-    printf("No No :(\n");
+    printf("No No :/\n");
   return 0;
 }
