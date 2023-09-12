@@ -58,8 +58,43 @@ else:
  
 </details>
 
-### ```컴퓨터 구조```<sub><i>Computer Architecture</i></sub>
+### ```컴퓨터 구조```<sup>Computer Architecture</sup>
 <p align="center"><img src="https://github.com/redzzzi/Dreamhack23fall/assets/127263392/e7da3c87-78d0-4db5-8fdb-4056f585527f" width="500px"></p>
 
-
 <p align="right">ꉂ☺ᵎᵎᵎ</p>
+
+### ```명령어 집합구조```<sup>ISA, Instruction Set Architecture</sup>
+* 마이크로프로세서가 인식해서 기능을 이해하고 실행할 수 있는 기계어 명령어와 관련된 설계
+  * 마이크로프로세서 = CPU = 마이크로 아키텍처
+  * CPU가 처리해야하는 명령어를 설계하는 분야
+  * 비트를 나눠 의미를 부여함 [*어셈블리어*](https://ko.wikipedia.org/wiki/%EC%96%B4%EC%85%88%EB%B8%94%EB%A6%AC%EC%96%B4)
+* ex) 인텔 - x86 || x86-64, ARM, MIPS, AVR
+
+```mermaid
+mindmap((컴퓨터 구조))
+  (기능 구조 설계)
+    (폰 노이만 구조)
+    (하버드 구조)
+    (수정된 하버드 구조)
+  (명령어 집합구조)
+    (x86)
+    (x86-64)
+  (마이크로 아키텍처)
+    (캐시 설계)
+    (파이프라이닝)
+    (슈퍼 스칼라)
+    (분기 예측)
+    (비순차적 명령어 처리)
+  (H/W 및 컴퓨팅 방법론)
+    (직접 메모리 접근)
+```
+
+### ```폰 노이만 구조```
+<p align="center"><img src="https://github.com/redzzzi/Dreamhack23fall/assets/127263392/197ca873-4293-4245-b39f-e3840daaf625"
+ width="300px"></p>
+
+
+
+
+
+
