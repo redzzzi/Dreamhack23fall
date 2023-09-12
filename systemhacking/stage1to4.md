@@ -163,7 +163,12 @@ mindmap((컴퓨터 구조))
 
 <p align="right">ꉂ☺ᵎᵎᵎ</p>
 
-
+#### 메모리 오염: 공격자가 메모리를 악의적으로 조작하여 CPU도 잘못된 동작을 하게 만드는 것
+* 취약점
+  * Stack Buffer Overflow
+  * Format String Bug
+  * Use After Free
+  * Double Free Bug
 
 
 
