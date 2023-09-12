@@ -93,11 +93,11 @@ mindmap((컴퓨터 구조))
 <p align="center"><img src="https://github.com/redzzzi/Dreamhack23fall/assets/127263392/197ca873-4293-4245-b39f-e3840daaf625"
  width="300px"></p>
  
-* CPU
+* ```CPU```
   * ALU<sup>Arithmetic Logic Unit</sup>: 산술/논리 연산 처리
   * CU<sup>Control Unit</sup>: CPU 제어
   * Register: 필요한 데이터 저장
-* Memory
+* ```Memory```
   * 주기억장치 --> 프로그램 실행과정에서 필요한 데이터들을 **임시로** 저장<br>
     ex) RAM<sup>Random Access Memory</sup>, ROM<sup>Read Only Memory</sup><br>
       > RAM은 휘발성이며 읽고 쓰기가 가능함<br>
@@ -107,6 +107,7 @@ mindmap((컴퓨터 구조))
     ex) HDD, SSD
       > HDD는 물리적으로 디스크를 고속으로 회전시켜 데이터를 저장함<br>
       > SSD는 전기적으로 데이터를 저장하기 때문에, 속도가 HDD에 비해 훨등히 빠름
-
+* ```Bus```: 컴퓨터 부품-부품 또는 컴퓨터-컴퓨터 사이에 신호를 전송하는 통로<br>
+  ex) Data Bus, Address Bus, Control Bus, 랜선, 데이터 전송 S/W, 프로토콜, etc.
 
 
