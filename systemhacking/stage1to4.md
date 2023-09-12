@@ -133,10 +133,13 @@ mindmap((컴퓨터 구조))
       |rdi<sup>destination index</sup>|데이터를 옮길 때 목적지를 가리키는 포인터|
       |rsp<sup>stack pointer</sup>|사용중인 스택의 위치를 가리키는 포인터|
       |rbp<sup>stack base pointer</sup>|스택의 바닥을 가리키는 포인터|
-
-
-
-
+* 세그먼트 레지스터
+  * 16비트
+  * ex) cs, ss, ds -> 코드,데이터,스택 메모리 영역 가리킴 | es, fs, gs -> OS 별 용도 상이
+* 명령어 포인터 레지스터: CPU가 실행할 코드 부분을 가리킴
+  * 8바이트
+  * ex) rip
+    
 
 
 
