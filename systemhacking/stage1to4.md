@@ -53,6 +53,8 @@ if answer == quiz:
 else:
     print("No No :/")
 ```
+* ```chr() 함수```: 정수를 인자로 받으며, 해당 정수를 아스키코드로 바꾸어줌
+* ```^```은 XOR 연산자로, quiz 리스트의 인덱스별 값을 바꿈
  
 </details>
 
