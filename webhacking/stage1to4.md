@@ -16,7 +16,7 @@
 #include <string.h>
 int main() {
   int sz = 0x30;
-  char *buf = (char *)malloc(sizeof(char) * sz);
+  char *buf = (char *)malloc(sizeof(char) * sz); //메모리 할당
   puts("Hello World!");
   printf("Education + Hack = ? ");
   fgets(buf, sz, stdin);
@@ -27,8 +27,9 @@ int main() {
   return 0;
 }
 ```
-* ```malloc 함수```: 요청한 크기의 메모리를 동적으로 할당하여 리턴
+* ```malloc 함수```<sup>memory allocation</sup>: 요청한 크기의 메모리를 동적으로 할당하여 리턴
   * ```#include <stdlib.h>``` 헤더파일 명령어 필요
+  * C언어는!!! 동적으로 size를 결정할 때 malloc 함수가 꼭 필요함!
 * ```메모리를 동적 할당한다```: 런타임 도중 사용할 메모리 공간을 할당
   * 메모리는 힙 영역에 생성됨 cf) 정적 메모리 할당<sup>데이터, 스택 영역</sup>: 컴파일 타임에 메모리 크기 결정
 * ```strncmp 함수```: 두 문자열을 비교하여 같으면 0, 다르면 음수or양수 리턴
