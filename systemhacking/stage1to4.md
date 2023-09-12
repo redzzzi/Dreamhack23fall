@@ -157,7 +157,7 @@ mindmap((컴퓨터 구조))
 ### 레지스터 호환
 <p align="center"><img src="https://github.com/redzzzi/Dreamhack23fall/assets/127263392/b1634fd0-7e4a-4fd1-9846-1d1c3ba5d8f9" width="400px"></p>
 
-* 64bit -> 32bit -> 16bit -> ah(high): 상위 8bit / al(low): 하위 8bit
+* 64bit(8바이트) -> 32bit(4바이트) -> 16bit(2바이트) -> ah(high): 상위 8bit(1바이트) / al(low): 하위 8bit
 * 과거의 아키텍처들과의 호환
 * IA-32에서 사용되는 32비트의 레지스터들: eax, ebx, etc. -> x86-64와 호환
 
