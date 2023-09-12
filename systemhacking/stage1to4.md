@@ -68,7 +68,7 @@ else:
   * 마이크로프로세서 = CPU = 마이크로 아키텍처
   * CPU가 처리해야하는 명령어를 설계하는 분야
   * 비트를 나눠 의미를 부여함 [*어셈블리어*](https://ko.wikipedia.org/wiki/%EC%96%B4%EC%85%88%EB%B8%94%EB%A6%AC%EC%96%B4)
-* ex) 인텔 - x86 || x86-64, ARM, MIPS, AVR
+* ex) 인텔 - x86 || x86-64(amd64), ARM, MIPS, AVR
 
 ```mermaid
 mindmap((컴퓨터 구조))
@@ -112,4 +112,7 @@ mindmap((컴퓨터 구조))
 * ```Bus```: 컴퓨터 부품-부품 또는 컴퓨터-컴퓨터 사이에 신호를 전송하는 통로<br>
   ex) Data Bus, Address Bus, Control Bus, 랜선, 데이터 전송 S/W, 프로토콜, etc.
 
+<p align="right">ꉂ☺ᵎᵎᵎ</p>
 
+### ```x86-64 아키텍처```
+* x86 명령어 집합 아키텍처의 64비트 모임 --> CPU가 한번에 처리할 수 있는 데이터의 크기<sup>WORD</sup>가 64
