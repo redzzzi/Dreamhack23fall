@@ -97,6 +97,8 @@ mindmap((컴퓨터 구조))
   * ALU<sup>Arithmetic Logic Unit</sup>: 산술/논리 연산 처리
   * CU<sup>Control Unit</sup>: CPU 제어
   * Register: 필요한 데이터 저장
+  * Cache
+    * 교환속도를 단축하기 위해 CPU 내부에 레지스터와 캐시 이 두 저장장치를 보유
 * ```Memory```
   * 주기억장치 --> 프로그램 실행과정에서 필요한 데이터들을 **임시로** 저장<br>
     ex) RAM<sup>Random Access Memory</sup>, ROM<sup>Read Only Memory</sup><br>
