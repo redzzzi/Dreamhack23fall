@@ -3,6 +3,45 @@
 
 
 # Basics
+
+<details>
+<summary>예시 코드 이해해보기</summary>
+<div markdown="1">
+<br>
+
+<code>👾 "Welcome Hackers :)" 가 출력되는 입력값 찾아보기</code>
+```solve_me.c
+#include <stdio.h>
+#include <stdlib.h> //malloc 함수가 포함된 헤더 파일
+#include <string.h>
+int main() {
+  int sz = 0x30;
+  char *buf = (char *)malloc(sizeof(char) * sz);
+  puts("Hello World!");
+  printf("Education + Hack = ?\\n");
+  fgets(buf, sz, stdin);
+  if (!strncmp(buf, "DreamHack", 9))
+    printf("Welcome Hackers :)\\n");
+  else
+    printf("No No :/n");
+  return 0;
+}
+```
+```solve_me.py
+#!/usr/bin/python3
+quiz = [116, 66, 85, 81, 93, 120, 81, 83, 91]
+for i in range(len(quiz)):
+    quiz[i] ^= 0x30
+quiz = ''.join([chr(_) for _ in quiz])
+answer = input()
+if answer == quiz:
+    print("Welcome Hackers :)")
+else:
+    print("No No :/")
+```
+ 
+</details>
+
 ### ```웹```
 **WWW**라고 불리는 World Wide Web의 줄임말로,<br>인터넷을 기반으로 구현된 서비스 중 **HTTP를 이용하여 정보를 공유하는 서비스**.
 > <b><i>wikipedia</i></b><br>
@@ -101,6 +140,7 @@ A[Web Server] -.- B[Web Client]
   B[Domain Name] --> |DNS| A;
   ```
 
+### 
 
 
 
