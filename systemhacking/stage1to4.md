@@ -115,4 +115,36 @@ mindmap((컴퓨터 구조))
 <p align="right">ꉂ☺ᵎᵎᵎ</p>
 
 ### ```x86-64 아키텍처```
-* x86 명령어 집합 아키텍처의 64비트 모임 --> CPU가 한번에 처리할 수 있는 데이터의 크기<sup>WORD</sup>가 64
+* x86 명령어 집합 아키텍처의 64비트 모임 > CPU가 한번에 처리할 수 있는 데이터의 크기<sup>WORD</sup>가 64
+<br>
+
+* 레지스터
+  * ```범용 레지스터```
+    * amd64에서 각각 8바이트를 저장 > 부호 없는 정수 기준 2<sup>64</sup>-1까지의 수 표현 가능
+    * well-known register
+      
+      |이름|주 용도|
+      |:---|:---|
+      |rax<sup>accumulator register</sup>|함수의 반환 값|
+      |rbx<sup>base register</sup>|x64에서는 주된 용도 없음|
+      |rcx<sup>counter register</sup>|반복문의 반복 횟수, 각종 연산의 시행 횟수|
+      |rdx<sup>data register</sup>|x64에서는 주된 용도 없음|
+      |rsi<sup>source index</sup>|데이터를 옮길 때 원본을 가리키는 포인터|
+      |rdi<sup>destination index</sup>|데이터를 옮길 때 목적지를 가리키는 포인터|
+      |rsp<sup>stack pointer</sup>|사용중인 스택의 위치를 가리키는 포인터|
+      |rbp<sup>stack base pointer</sup>|스택의 바닥을 가리키는 포인터|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
