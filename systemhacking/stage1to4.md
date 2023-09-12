@@ -151,7 +151,8 @@ mindmap((컴퓨터 구조))
   |ZF<sup>Zero Flag</sup>|연산의 결과가 0일 경우 설정됨|
   |SF<sup>Sign Flag</sup>|연산의 결과가 음수일 경우 설정됨|
   |OF<sup>Overflow Flag</sup>|부호 있는 수의 연산 결과가 비트 범위를 넘을 경우 설정됨|
-
+* 사용 예시
+  <pre>3의 값을 갖는 a와 5의 값을 갖는 b가 있을 때,<br>a에서 b를 빼는 연산을 하면, 연산의 결과가 음수이므로 SF가 설정됨<br><br>💡CPU는 SF를 통해 a가 b보다 작았음을 알 수 있음💡</pre>
 
 
 
