@@ -1,5 +1,5 @@
 ## 📝 Table <br>
-[*1. Basics*](#basics)
+[*1. Basics*](#basics)&emsp;[*2. Assembly*](#assembly)
 
 
 # Basics
@@ -226,3 +226,8 @@ mindmap((컴퓨터 구조))
 |스택 세그먼트|임시 변수가 저장되는 영역|읽기, 쓰기|지역 변수, 함수의 인자 등|
 |힙 세그먼트|실행 중 동적으로 사용되는 영역|읽기, 쓰기|malloc(), calloc() 등으로 할당 받은 메모리|
 </details>
+
+# Assembly
+## 어셈블리 언어
+* 컴퓨터의 기계어와 치환되는 언어
+* x64 어셈블리 언어의 기본 구조: **명령어**(Operation Code, Opcode), **피연산자**(Operand)
