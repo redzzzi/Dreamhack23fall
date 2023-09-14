@@ -234,6 +234,9 @@ mindmap((컴퓨터 구조))
 ## x64 어셈블리 언어
 * 기본 구조: **명령어**(Operation Code, Opcode), **피연산자**(Operand)
   * ex) ```mov``` ```eax, 3```: ```opcode(대입해라)``` ```operand1(eax에)```, ```operand2(3을)```
+  * 피연산자 종류: 상수, 레지스터, 메모리
+    * 메모리 피연산자: ```[]```로 표현, 크기 지정자 TYPE PTR 추가 가능
+    * TYPE --> BYTE(1byte), WORD(2byte), DWORD(4byte), QWORD(8byte)
 * 명령 코드
 
   |기능|코드|
