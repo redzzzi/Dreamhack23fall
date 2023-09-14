@@ -233,6 +233,7 @@ mindmap((컴퓨터 구조))
 
 ## x64 어셈블리 언어
 * 기본 구조: **명령어**(Operation Code, Opcode), **피연산자**(Operand)
+  * ex) ```mov``` ```eax, 3```: ```opcode(대입해라)``` ```operand1(eax에)```, ```operand2(3을)```
 * 명령 코드
 
   |기능|코드|
