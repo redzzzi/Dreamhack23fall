@@ -1,6 +1,6 @@
 from pwn import *
 
-p = remote("host3.dreamhack.games", 15163)
+p = remote("host3.dreamhack.games", 10348)
 
 context.arch = "amd64"
 r = "/home/shell_basic/flag_name_is_loooooong"
